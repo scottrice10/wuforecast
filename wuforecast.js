@@ -141,7 +141,7 @@ Module.register("wuforecast",{
 			row.appendChild(iconCell);
 
 			var icon = document.createElement("span");
-			icon.className = forecast.icon;
+			icon.className = "wi weathericon " + forecast.icon;
 			iconCell.appendChild(icon);
 
 			// Set the degree symbol if desired
